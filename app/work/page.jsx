@@ -50,6 +50,16 @@ const projects = [
     live: "",
     github: "",
   },
+  {
+    num: "04",
+    category: "frontend",
+    title: "figeats",
+    description: "An online restaurant app",
+    stack: [{ name: "Tailwind" }, { name: "Vite" }, { name: "Html 5" }],
+    image: "/assets/work/REST1.png",
+    live: "https://fefrontend.vercel.app/",
+    github: "https://github.com/DevUnanam/FEFRONTEND.git",
+  },
 ];
 
 const Work = () => {
