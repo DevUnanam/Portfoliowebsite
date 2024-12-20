@@ -46,7 +46,7 @@ const projects = [
     title: "figflix",
     description: "An online platform for streaming movies",
     stack: [{ name: "Css 3" }, { name: "Javascript" }, { name: "Html 5" }],
-    image: "/assets/work/thumb2.png",
+    image: "/assets/work/figflix1",
     live: "https://moviedeck.vercel.app/",
     github: "https://github.com/DevUnanam/moviedeck.git",
   },
