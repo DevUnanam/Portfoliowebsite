@@ -47,8 +47,8 @@ const projects = [
     description: "An online platform for streaming movies",
     stack: [{ name: "Css 3" }, { name: "Javascript" }, { name: "Html 5" }],
     image: "/assets/work/thumb2.png",
-    live: "",
-    github: "",
+    live: "https://moviedeck.vercel.app/",
+    github: "https://github.com/DevUnanam/moviedeck.git",
   },
   {
     num: "04",
