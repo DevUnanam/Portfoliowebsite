@@ -13,14 +13,19 @@ const Header = () => {
             DevUnanam<span className="text-accent">.</span>
           </h1>
         </Link>
-        
+
         {/* desktop nav and hire me button */}
         <div className="hidden xl:flex items-center gap-8">
           <Nav />
-          <Link href="/contact">
+          <a
+            href="https://www.fiverr.com/s/o86BoDg"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Button>Hire Me</Button>
-          </Link>
+          </a>
         </div>
+
 
         {/* mobilenav */}
         <div className="xl:hidden">

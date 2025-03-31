@@ -6,7 +6,7 @@ import { SiTailwindcss, SiDjango, SiFlask, SiMysql, SiPostgresql, SiGit } from "
 
 const about = {
   title: "About me",
-  description: 
+  description:
     "I am a passionate and detail-oriented full-stack software developer with a background in Biochemistry,blending analytical precision with creative problem-solving. Over the past year, I’ve honed my expertise in developing robust web applications using technologies like Python, Django, React, and MySQL.My diverse skill set includes creating user-centric designs, optimizing back-end processes, and delivering scalable solutions.An avid learner and team player, I thrive on challenges and enjoy bringing ideas to life through code. Beyond development, I have a knack for writing, music, and storytelling, which enhance my ability to craft engaging digital experiences. Whether it's building innovative platforms like PLAN2LIVE or collaborating on team projects like TaskMaster, I am committed to creating meaningful impact through technology.",
   info: [
     {
@@ -15,7 +15,7 @@ const about = {
     },
     {
       fieldName: "Phone",
-      fieldValue: "(+234) 7053830422",
+      fieldValue: "(+234) 7076517196",
     },
     {
       fieldName: "Experience",
@@ -39,7 +39,7 @@ const about = {
 const experience = {
   icon: '/assets/resume/approved.png',
   title: "My experience",
-  description: "Below is a list of projects to show what i have been able to do",
+  description: "A good developer stays informed",
   items: [
     {
       company: "ALX SWE",
@@ -99,7 +99,12 @@ const education = {
       degree: "Front-end Track",
       duration: "2022",
     },
-   
+    {
+      institution: "Internpulse",
+      degree: "Front-end Track",
+      duration: "2024",
+    },
+
   ]
 };
 
@@ -156,19 +161,19 @@ const skills = {
       name: "Git",
     },
   ],
-  
+
 };
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
- 
+
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger, } from "@/components/ui/tooltip";
 
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { motion } from "framer-motion";
 
 const Resume = () => {
-  return <motion.div 
-  initial={{ opacity: 0 }} 
+  return <motion.div
+  initial={{ opacity: 0 }}
   animate={{
     opacity: 1,
     transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
@@ -196,7 +201,7 @@ const Resume = () => {
                 <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
                   {experience.items.map((item, index)=> {
                     return (
-                    <li 
+                    <li
                       key={index}
                       className="bg-[#232329] h-[184px] py-6 px-18 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
                       >
@@ -222,7 +227,7 @@ const Resume = () => {
                 <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
                   {education.items.map((item, index)=> {
                     return (
-                    <li 
+                    <li
                       key={index}
                       className="bg-[#232329] h-[184px] py-6 px-18 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
                       >

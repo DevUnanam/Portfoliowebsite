@@ -3,14 +3,14 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { 
-  Select, 
-  SelectContent, 
-  SelectGroup, 
-  SelectItem, 
-  SelectLabel, 
-  SelectTrigger, 
-  SelectValue 
+import {
+  Select,
+  SelectContent,
+  SelectGroup,
+  SelectItem,
+  SelectLabel,
+  SelectTrigger,
+  SelectValue
 } from "@/components/ui/select";
 
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
@@ -19,7 +19,7 @@ const info = [
   {
     icon: <FaPhoneAlt />,
     title: "Phone",
-    description: "(+234) 7053830422",
+    description: "(+234) 7076517196",
   },
   {
     icon: <FaEnvelope />,
@@ -53,8 +53,7 @@ const Contact = () => {
                 Wanna work together? Let's do it!!!
               </h3>
               <p className="text-white/60">
-                We can chat via Email, or you can send a WhatsApp message to the
-                phone number provided.
+                SEND AN EMAIL
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <Input type="text" placeholder="Firstname" />

@@ -1,13 +1,13 @@
 import { Icon } from "lucide-react";
 import Link from "next/link";
 
-import { FaGithub, FaLinkedIn, FaYoutube, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaLinkedIn, FaWhatsapp, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 
 const socials = [
-    { icon: <FaGithub />, path: ""},
-    { icon: <FaLinkedinIn />, path: ""},
-    { icon: <FaYoutube />, path: ""},
-    { icon: <FaTwitter />, path: ""},
+    { icon: <FaGithub />, path: "https://github.com/DevUnanam"},
+    { icon: <FaLinkedinIn />, path: "https://www.linkedin.com/in/victoria-unanam/"},
+    { icon: <FaWhatsapp />, path: "https://wa.me/message/IQUAVMF6ZLGYJ1" },
+    { icon: <FaTwitter />, path: "https://x.com/EmasenyeUnanam"},
 ];
 
 
@@ -24,6 +24,6 @@ const Social = ({ containerStyles = "flex gap-4", iconStyles = "text-xl" }) => {
       </div>
     );
   };
-  
+
 
 export default Social;
