@@ -42,6 +42,11 @@ const experience = {
   description: "A good developer stays informed",
   items: [
     {
+      company: "Xeta Digital Ng",
+      position: "Web Developer/Project Manager",
+      duration: "2025-present",
+    },
+    {
       company: "ALX SWE",
       position: "Full Stack Software Engineer",
       duration: "2023-2024",
@@ -60,16 +65,6 @@ const experience = {
       company: "1512 Computer Institute",
       position: "Operator",
       duration: "2013-2022",
-    },
-    {
-      company: "Lorem Ipsum DOlor stuffing",
-      position: "junior Full Stack Developer",
-      duration: "2022 - Present",
-    },
-    {
-      company: "Lorem Ipsum Dolor",
-      position: "Full Stack Developer",
-      duration: "2022 - Present",
     },
   ]
 };
