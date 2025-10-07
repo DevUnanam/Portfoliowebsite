@@ -52,13 +52,13 @@ const projects = [
   },
   {
     num: "04",
-    category: "frontend",
-    title: "figeats",
-    description: "An online restaurant app",
-    stack: [{ name: "Tailwind" }, { name: "Vite" }, { name: "Html 5" }],
-    image: "/assets/work/REST1.png",
-    live: "https://fefrontend.vercel.app/",
-    github: "https://github.com/DevUnanam/FEFRONTEND.git",
+    category: "Fullstack",
+    title: "Restaapp",
+    description: "A webapp where customers can place orders for food from restaurants and get it delivered to their location",
+    stack: [{ name: "Tailwind" }, { name: "Django" }, { name: "Javascript" }],
+    image: "/assets/work/newimg1.png",
+    live: "https://restapp-vzx2.onrender.com",
+    github: "https://github.com/DevUnanam/restapp.git",
   },
 
 ];
