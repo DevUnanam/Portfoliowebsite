@@ -23,8 +23,8 @@ const Home = () => {
               <FiDownload className="text-xl" />
             </Button> */}
             <a
-                href="/Victoria Joseph Resume.pdf"
-                download="Victoria Joseph Resume.pdf"
+                href="/Victoria Joseph.pdf"
+                download="Victoria Joseph.pdf"
                 className="uppercase flex items-center gap-2 border border-gray-500 text-gray-500 px-6 py-3 rounded-lg hover:bg-gray-700 hover:text-white transition"
               >
                 <span>Download CV</span>

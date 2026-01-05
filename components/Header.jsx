@@ -18,7 +18,7 @@ const Header = () => {
         <div className="hidden xl:flex items-center gap-8">
           <Nav />
           <a
-            href="https://www.fiverr.com/s/o86BoDg"
+            href="https://wa.me/message/IQUAVMF6ZLGYJ1"
             target="_blank"
             rel="noopener noreferrer"
           >
